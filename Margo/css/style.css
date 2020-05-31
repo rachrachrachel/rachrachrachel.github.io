@@ -1,0 +1,131 @@
+@charset "utf-8";
+.personaje{
+	position: fixed;
+    z-index: 1;
+    background-image:url("../img/margo.png");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: contain;
+    width: 27%;
+    height: 100%;
+    top: 120px;
+    left: 73.3%;
+}
+.display-4 {
+	background-image:url("../img/brasil2.jpg");
+	height:16em;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color:#FFC522;
+}
+
+.lead{
+	background-image: url("../img/2.jpg");
+    height: 43em;
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-color:#FFC522;
+	color: white;
+	text-align: left;
+}
+.nav-item{
+}
+.navbar{
+	background:#472B49;
+	color:white;
+	text-size:40px;
+}
+.my-4{
+	background:pink;
+}
+.jumbotron{
+	background-color:#FFC522;;
+}
+.card{
+background:#FFC522;
+}	
+.container{
+	background:#472B49;
+}
+.row{color: white;
+}
+.contenedor{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 340px 340px;
+	grid-column-gap: 20px;
+	grid-row-gap:20px;}
+.imagen div:nth-child(odd){
+	backgroud:yellow;
+}
+#imagen1{
+	background: #77494A;
+	background-image:url("../img/rio.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#imagen2{
+	background-image:url("../img/basurilla.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+#imagen3{
+	background-image:url("../img/gatito.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+#imagen4{
+	background-image:url("../img/balcon2.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+#imagen5{
+	background-image:url("../img/mama.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+#imagen6{
+	background-image:url("../img/ciudad.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+.mensaje{
+	background:#EA4D6A;
+	text-align:center;
+	color:white;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+	
+}
+.mensaje1{ 
+	background:#EA4D6A;
+	text-align:center;
+	color:white;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+	
+}
+.contenedor1{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows:700px;
+	grid-column-gap: 20px;
+	grid-row-gap:20px;}
+.imagen div:nth-child(odd){
+	backgroud:yellow;
+}
+#ima1{
+	background-image:url("../img/11.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+#ima2{
+	background-image:url("../img/brasil.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+.card-body{
+	color:black;
+	text-align: center;
+}
+
